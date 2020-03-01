@@ -1,0 +1,24 @@
+{
+  "name": "immersive-prep",
+  "version": "1.0.0",
+  "description": "Repository for preperation immersive course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:example": "jest test-example/",
+    "test:recursion": "jest recursion-review/",
+    "test:underbar": "jest underbar-review/",
+    "test:watch": "jest --watch",
+    "test:circleci": "jest --json --outputFile=.circleci/results.json",
+    "lint": "eslint **/*.js --quiet"
+  },
+  "keywords": [
+    "linter",
+    "testing",
+    "recursion",
+    "underbar"
+  ],
+  "author": "codesatates",
+  "dependencies": {},
+  "devDependencies": {}
+}
